@@ -30,7 +30,7 @@ npx tsc --init
 **OR**
 **Clone the repository**
   ```bash
-  git clone <.URL.>
+  git clone <https://github.com/PramodKumavat7758/Email_Auto_Responsor.git>
 ```
 
 2. **Install Required Packages**
@@ -46,3 +46,10 @@ npx ts-node src/server.ts
 4. **Authenticate and obtain the tokens**
    - Open your browser and navigate to http://localhost:3000//auth/google
    - Follow the OAuth flow and obtain tokens
+   - Start processing emails.
+
+## Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+## License
+[MIT License](LICENSE)
