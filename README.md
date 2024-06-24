@@ -35,6 +35,14 @@ npx tsc --init
 
 2. **Install Required Packages**
 ```bash
+npm install
 npm install express axios google-auth-library @microsoft/microsoft-graph-client msal openai bullmq ioredis
 npm install @types/express @types/axios
 ```
+3. **Start the server**
+```bash
+npx ts-node src/server.ts
+```
+4. **Authenticate and obtain the tokens**
+   - Open your browser and navigate to http://localhost:3000//auth/google
+   - Follow the OAuth flow and obtain tokens
