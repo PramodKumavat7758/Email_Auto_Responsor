@@ -19,13 +19,13 @@ The Email Auto Responsor is a tool designed to automatically parse and respond t
   Follow the below steps: 
 ## Installation
 1. **Initialize TypeScript Project**
-   ```bash
-  mkdir Email_Auto_Responsor
-  cd Email_Auto_Responsor
-  npm init -y
-  npm install typescript ts-node nodemon @types/node
-  npx tsc --init
-  ```
+```bash
+mkdir Email_Auto_Responsor
+cd Email_Auto_Responsor
+npm init -y
+npm install typescript ts-node nodemon @types/node
+npx tsc --init
+```
 
 **OR**
 **Clone the repository
