@@ -40,12 +40,19 @@ npm install express axios google-auth-library @microsoft/microsoft-graph-client 
 npm install @types/express @types/axios
 ```
 3. **Start the server**
+   
 ```bash
 npx ts-node src/server.ts
 ```
+![Start Server](start.png)
 4. **Authenticate and obtain the tokens**
    - Open your browser and navigate to http://localhost:3000//auth/google
+     ![Authentication](OAuth.png)
+     
    - Follow the OAuth flow and obtain tokens
+     ![Access Provide](AcessProvide.png)
+     ![Token Generation](GeneratedToken.png)
+     
    - Start processing emails.
 
 ## Contributing
