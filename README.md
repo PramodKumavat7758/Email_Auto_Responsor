@@ -28,7 +28,7 @@ npx tsc --init
 ```
 
 **OR**
-**Clone the repository
+**Clone the repository**
   ```bash
   git clone <.URL.>
 ```
